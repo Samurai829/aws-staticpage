@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="stylesheet" href="./samurai829_files/css/styles.css">
+        <link rel="icon" type="image/png" href="./samurai829_files/img/icon.png">
+        <!-- ===============BOX ICONS================= -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <title>SERVER 1</title>
+    </head>
+    <body>
+        <!--===== LOADER =====-->
+        <div class="loader_container">
+            <div class="loader"></div>
+            <div class="loader2"></div>
+        </div>
+        <div id="app">
+        </div>
+
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+
+                <div>
+                    <a href="#" class="nav__logo">SERVER 1</a>
+                </div>
+
+                <!--===== MENU =====-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Inicio</a></li>
+                        <li class="nav__item"><a href="#info" class="nav__link">Información</a></li>
+                        <li class="nav__item"><a href="./documents/index.html" class="nav__link">Documentacion</a></li>
+                        <li class="nav__item"><a href="https://samurai829.github.io/website/" class="nav__link">Portfolio</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== INICIO =====-->
+            <section class="home bd-grid" id="home">
+
+                <div class="home__data">
+
+                    <!--SALUDO-->
+                    <h1 class="home__title">Hello,<br>W<span class="home__title-color home_title_shadow">o</span>rld!</h1>
+                
+                    <!-- THEME BUTTON -->
+                   <i class="ri-moon-line change-theme theme-icon_shadow" id="theme-button"></i>
+                
+                </div>
+                
+                <!--CURRICULUM-->
+                <div class="home__data">
+                    <a href="#" class="button">CODIGO EN GITHUB</a>
+                </div><br>
+
+                <!--AVATAR-->
+                <div class="home__img img_shadow">
+                    <img src="samurai829_files/img/docker.svg">
+                </div>
+
+            </section>
+
+            <!--===== RESUMEN =====-->
+            <section class="about section" id="info">
+
+                <h2 class="section_title">RESUMEN</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img about_img_shadow">
+                        <img src="samurai829_files/img/skills.gif" alt="">
+                    </div>
+                    <div>
+                        <h2 class="about__subtitle about_shadow">¿Que es este SERVIDOR?</h2>
+                        <p class="about__text">
+                            Este es uno de 2 servidores implementado en AWS Elastic Computer Cloud (EC2) donde se utilizo para el 
+                            lanzamiento de 2 instancias EC2, ademas de la herramienta de configuracion Terraform la cual sirve para 
+                            configurar Infraestructuras mediante codigo o IAC (Infraestructure as Code).
+                        </p>
+                                
+                    </div>                                   
+                </div>
+
+            </section>
+    
+
+
+
+        </main>
+
+        <!--PIE DE PAGINA-->
+        <footer class="footer">
+            <p class="footer__title">Reymer García Acevedo</p>
+            <div class="footer__social">
+                <a href="https://github.com/Samurai829" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/stevenx809/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.reddit.com/user/samuraii829" class="footer__icon"><i class='bx bxl-reddit' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Samurai829. All rigths reserved</p>
+            <p class="footer__copy">Developer by Reymer Steven Garcia Acevedo</p>
+        </footer>
+
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="./samurai829_files/js/main.js"></script>
+        <script src="./samurai829_files/js/scripts.js"></script>
+    </body>
+</html>

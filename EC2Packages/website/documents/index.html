@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link rel="stylesheet" href="./samurai829_files/css/styles.css">
+        <link rel="icon" type="image/png" href="./samurai829_files/img/icon.png">
+        <!-- ===============BOX ICONS================= -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <title>Samurai829</title>
+    </head>
+    <body>
+        <!--===== LOADER =====-->
+        <div class="loader_container">
+            <div class="loader"></div>
+            <div class="loader2"></div>            
+        </div>
+
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+
+                <div class="logo__section">
+                    <img src="samurai829_files/img/icon.png" class="nav__img">
+                </div>
+                <div>
+                    <a href="https://samurai829.github.io/website/"class="nav__logo">Reymer Steven Garcia Acevedo</a>
+                </div>
+
+                <!--===== MENU =====-->
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== INICIO =====-->
+            <section class="home bd-grid" id="home">
+
+                <div class="home__data">
+
+                    <!--SALUDO-->
+                    <h1 class="home__title">Documentacion<br>de <span class="home__title-color home_title_shadow">Proyecto</span></h1>
+                
+
+                    <!--LINKS DE REPOSITORIO-->
+                    <a href="https://www.linkedin.com/in/reymer-steven-garcia-acevedo-2412bb187/" class="home__social-icon social_icon_shadow"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/Samurai829" class="home__social-icon social_icon_shadow"><i class='bx bxl-github' ></i></a>
+                    <a href="https://gitlab.com/Samurai829" class="home__social-icon social_icon_shadow"><i class='bx bxl-gitlab' ></i></a>                   
+                                        <!-- THEME BUTTON -->
+                                        <i class="ri-moon-line change-theme theme-icon_shadow" id="theme-button"></i>
+                </div><br><br><br><br><br><br>
+
+                <!--AVATAR-->
+                <div class="home__img img_shadow">
+                    <img class="home__blob-img" src="./samurai829_files/img/icon.png">
+                </div>
+            </section>
+            
+            <!--===== DOCUMENTACION =====-->
+            <section class="about section" id="about">
+
+                <h2 class="section_title">DOCUMENTACION</h2>
+
+                <div class="projects__container bd-grid"> 
+                    <div>
+                        <h2 class="projects__subtitle projects_shadow">PROYECTO 1: AWS EC2</h2>
+                        <p class="projects__text">
+                            Este proyecto fue implementado como objetivo personal para medir mis capacidades de desarrollo e implementacion 
+                            de distintas herramientas y servicios.
+                        </p>
+                        <p class="projects__text">
+                            En la creacion de este proyecto uso la infraestructura de AWS (Amazon Web Services) y la herramienta Terraform para la 
+                            configuracion de los servicos usados en la infraestructura todo esto mediante codigo o IAC (infrastructure As Code).
+                        </p>  
+                        <p class="projects__text">
+                            En este proyecto creo 2 servidores que alojan esta pagina web mediante contenedores usando Docker, la imagen usada 
+                            para el contenedor usa una imagen base de Apache HTTP llamada Httpd con modificaciones para al momento de inicializar 
+                            el contenedor arroje esta web.
+                        </p>
+                        <p class="projects__text">
+                            Dentro del Contenedor de Docker esta la pagina web diseñada con lenguajes como CSS3, JAVASCRIPT y el lenguaje de marcado 
+                            HTML.
+                        </p>
+                        <p class="projects__text">
+                            La elaboracion fue realizada por servicios como AWS VPC (Virtual Private Cloud) para la red virtual 
+                            en AWS usada para los servidores y servicios, AWS EC2 para la creacion de servidores o instancias en AWS, 
+                            AWS ELB (Elastic Load Balancing) para la distribucion de trafico entrante entre servidores y AWS Route 53 
+                            para nombres de dominio.
+                        </p>         
+                    </div>
+                        
+                    
+                </div>
+                
+            </section>
+
+
+
+<br><br><br>
+
+
+
+
+
+        </main>
+
+        <!--PIE DE PAGINA-->
+        <footer class="footer">
+            <p class="footer__copy"> &#169; Samurai829. All rigths reserved. </p>
+            <p class="footer__copy">Developer by Reymer Steven Garcia Acevedo</p>
+        </footer>
+
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="./samurai829_files/js/main.js"></script>
+    </body>
+</html>
