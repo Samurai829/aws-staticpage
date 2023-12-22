@@ -15,7 +15,7 @@ resource "aws_instance" "container_server1" {
       Name    = var.instance_name_1
     }
 }
-# INSTANCIA EC2 AZ-1
+# INSTANCIA EC2 AZ-2
 resource "aws_instance" "container_server2" {
     ami                     = var.amis[var.region]
     instance_type           = var.instance_type
